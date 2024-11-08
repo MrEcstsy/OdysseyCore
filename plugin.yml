@@ -1,0 +1,30 @@
+name: OdysseyRealm
+main: xtcy\odysseyrealm\Loader
+api: 5.0.0
+version: 1.0.0
+author: Xtcy
+description: Odyssey realm core.
+
+permissions:
+  command.default:
+    default: true
+  command.odyssey.xpshop:
+    default: true
+  command.set_balance:
+    default: op
+  command.remove_balance:
+    default: op
+  command.add_balance:
+    default: op
+  command.add_shards:
+    default: op
+  command.set_shards:
+    default: op
+  command.remove_shards:
+    default: op
+  command.feed:
+    default: false
+  command.heal:
+    default: false
+  command.gamemode:
+    default: op
